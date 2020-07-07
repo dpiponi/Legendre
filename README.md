@@ -1,1 +1,3 @@
 # Legendre
+
+Read `legendre.pdf`.
