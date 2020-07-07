@@ -111,6 +111,12 @@ Gaussian/quadratic & $f(x) = \exp(-ax^2/2)$ & $f(x) = ax^2/2$ \\
 
 \hline
 
+``Regularization'' & Gaussian blur/Weierstrass transform & Moreau envelope \\
+  & $g(x) = \int_{-\infty}^\infty f(y)\exp(-\frac{1}{2\sigma}(x-y)^2)dy$
+& $g(x) = \inf_y(f(y) + \frac{1}{2t}(x-y)^2)$ \\
+
+\hline
+
 Slice-projection theorem & $g(x)=\int_{-\infty}^\infty f(x,y)dy$ & $g(x)=\inf_y f(x,y)$ \\
 
 & $G(\omega) = F(\omega,0)$ & $g^\ast(p) = f^\ast(p,0)$ \\

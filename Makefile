@@ -3,4 +3,4 @@ legendre.pdf: legendre.tex
 	bibtex legendre
 	pdflatex -synctex=1 --interaction=nonstopmode legendre
 	pdflatex -synctex=1 --interaction=nonstopmode legendre
-	sh update.sh legendre
+	# sh update.sh legendre
